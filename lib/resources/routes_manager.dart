@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_event_app/presentation/authentication/view/sign_in_view.dart';
+import 'package:flutter_event_app/presentation/onboarding/view/onboardingView.dart';
+import 'package:flutter_event_app/resources/string_manager.dart';
 
 class Routes {
   static const String splashRoute = "/";
-  static const String onBoardingRoute = "/onboarding";
+  static const String onBoardingRoute = "/OnboardingView";
   static const String loginRoute = "/login";
   static const String registerRoute = "/register";
   static const String forgetPasswordRoute = "/forgetPassword";
@@ -10,12 +13,12 @@ class Routes {
 
 }
 
-/*class RouteGenerator {
+class RouteGenerator {
   static Route<dynamic> getRoute(RouteSettings routeSettings) {
     switch (routeSettings.name) {
-      case Routes.splashRoute:
-        return MaterialPageRoute(builder: (_) => SplashView());
-      case Routes.loginRoute:
+      case Routes.onBoardingRoute:
+        return MaterialPageRoute(builder: (_) => SignIn());
+      /*case Routes.loginRoute:
         return MaterialPageRoute(builder: (_) => LoginView());
       case Routes.onBoardingRoute:
         return MaterialPageRoute(builder: (_) => OnboardingView());
@@ -24,9 +27,7 @@ class Routes {
       case Routes.forgetPasswordRoute:
         return MaterialPageRoute(builder: (_) => ForgotPassword());
       case Routes.mainRoute:
-        return MaterialPageRoute(builder: (_) => MainView());
-      case Routes.storeDetailsRoute:
-        return MaterialPageRoute(builder: (_) => StoreDetailsView());
+        return MaterialPageRoute(builder: (_) => MainView());*/
 
       default:
         return unDefinedRoute();
@@ -42,4 +43,4 @@ class Routes {
               body: Center(child: Text(AppString.noRouteFound )),
             ));
   }
-}*/
+}

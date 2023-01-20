@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_event_app/resources/values_manager.dart';
 
 class ColorManager {
   static Color bluePrimary = HexColor.fromHexColor('#4A43EC');
@@ -9,10 +10,10 @@ class ColorManager {
   static Color smallText = HexColor.fromHexColor('#747688');
   static Color iconText = HexColor.fromHexColor('#767676');
   static Color text = HexColor.fromHexColor('#000000');
-  static Color grey2 = HexColor.fromHexColor('#797979');
   static Color white = HexColor.fromHexColor('#ffffff');
+  static Color textBoxColor = HexColor.fromHexColor('#E4DFDF');
   static Color error = HexColor.fromHexColor('#e61f34');
-  static Color wisteria = HexColor.fromHexColor('#B8A3D3');
+  static Color placeHolderText = HexColor.fromHexColor('#747688');
    static Color frenchPink = HexColor.fromHexColor('#FF70A6');
 }
 

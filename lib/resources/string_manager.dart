@@ -1,17 +1,15 @@
 class AppString {
   static const String noRouteFound = 'No Route Found';
-  static const String onBoardingTitile1 = 'SEE THE BEST COURSE #1';
-  static const String onBoardingTitile2 = 'SEE THE BEST COURSE #2';
-  static const String onBoardingTitile3 = 'SEE THE BEST COURSE #3';
-  static const String onBoardingTitile4 = 'SEE THE BEST COURSE #4';
+  static const String onBoardingTitile1 = 'Explore Upcoming and \nNearby Events';
+  static const String onBoardingTitile2 = 'Web Have Modern Events \nCalendar Feature';
+  static const String onBoardingTitile3 = 'To Look Up More Events or \nActivities Nearby By Map';
     static const String skip = 'Skip';
 
-  static const String onBoardingSubTitile1 =
-      'Tut app is an awesome flutter application using clean architecture #1';
-  static const String onBoardingSubTitile2 =
-      'Tut app is an awesome flutter application using clean architecture #2';
-  static const String onBoardingSubTitile3 =
-      'Tut app is an awesome flutter application using clean architecture #3';
-  static const String onBoardingSubTitile4 =
-      'Tut app is an awesome flutter application using clean architecture #4';
+  static const String onboardingSubTitile1 =
+      'In publishing and graphic design, Lorem is a placeholder text commonly ';
+  static const String onboardingSubTitile2 =
+      'In publishing and graphic design, Lorem is a placeholder text commonly ';
+  static const String onboardingSubTitile3 =
+      'In publishing and graphic design, Lorem is a placeholder text commonly ';
+
 }

@@ -41,11 +41,11 @@ ThemeData getApplicationTheme() {
       ),
       textTheme: TextTheme(
           headline1: getSemiBoldStyle(
-              color: ColorManager.boldText, fontSize: FontSize.s16),
+              color: ColorManager.white, fontSize: FontSize.s22),
           subtitle1: getMediumStyle(
-              color: ColorManager.smallText, fontSize: FontSize.s14),
+              color: ColorManager.white, fontSize: FontSize.s22, height: 1.7),
           subtitle2: getMediumStyle(
-              color: ColorManager.bluePrimary, fontSize: FontSize.s14),
+              color: Colors.white70, fontSize: FontSize.s14, height: 1.7),
           caption: getRegularStyle(
             color: ColorManager.smallText,
           ),
