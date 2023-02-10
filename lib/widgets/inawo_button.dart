@@ -8,15 +8,15 @@ import 'package:gap/gap.dart';
 class InawoButton extends StatelessWidget {
   final VoidCallback onTap;
   final String label;
-  final double width;
 
-  const InawoButton({Key key,this.width = double.infinity, this.onTap, this.label}) : super(key: key);
+
+  const InawoButton({Key key, this.onTap, this.label}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: AppSize.s45,
-      width: width,
+      height: AppSize.s58,
+      width: 271,
       child: ElevatedButton(
           onPressed: onTap,
           style: ElevatedButton.styleFrom(
@@ -26,7 +26,9 @@ class InawoButton extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(AppSize.s15)),
               )),
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
+              Container(height: 0.0,width: 0.0,),
               Text(
                 label,
                 textScaleFactor: 1.0,
@@ -36,12 +38,12 @@ class InawoButton extends StatelessWidget {
                     fontSize: 16),
               ),
 
-              Gap(AppSize.s25),
+             
 
               CircleAvatar(
-                radius: AppSize.s10,
-                backgroundColor: Colors.transparent,
-                child: Icon(Icons.arrow_forward, color: ColorManager.white,),
+                radius: AppSize.s15,
+                backgroundColor: Colors.white.withOpacity(0.1),
+                child: Icon(Icons.arrow_forward, color: ColorManager.white, size: AppSize.s20,),
 
               )
             ],

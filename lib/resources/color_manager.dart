@@ -14,7 +14,8 @@ class ColorManager {
   static Color textBoxColor = HexColor.fromHexColor('#E4DFDF');
   static Color error = HexColor.fromHexColor('#e61f34');
   static Color placeHolderText = HexColor.fromHexColor('#747688');
-   static Color frenchPink = HexColor.fromHexColor('#FF70A6');
+   static Color darker = HexColor.fromHexColor('#818991');
+   static Color textColor = HexColor.fromHexColor('#9D9898');
 }
 
 extension HexColor on Color {
